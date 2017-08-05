@@ -138,3 +138,11 @@ export PATH="$HOME/bin/veramount:$PATH"
 
 # added by Anaconda3 4.4.0 installer
 #export PATH="$HOME/bin/anaconda/bin:$PATH"
+
+# Spark
+export SPARK_HOME=/usr/local/share/spark-2.2.0
+export PATH="$SPARK_HOME/sbin:$PATH"
+
+# Android SDK
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
